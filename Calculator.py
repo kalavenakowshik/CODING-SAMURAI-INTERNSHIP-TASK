@@ -19,9 +19,9 @@ def click(event):
         screen.update()
 
 root = Tk()
-root.geometry("500x600")  # Reduced window size
+root.geometry("500x600") 
 root.title("Calculator")
-root.focus_set()  # Makes sure focus isn't stolen by other widgets
+root.focus_set() 
 
 scvalue = StringVar()
 scvalue.set("")
